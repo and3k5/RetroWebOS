@@ -1,0 +1,32 @@
+{
+  "name": "retrowebos",
+  "version": "1.0.0",
+  "description": "Making my own nostalgia trip",
+  "scripts": {
+    "test": "http-server",
+    "build": "npx webpack --env.mode=production",
+    "build-dev": "npx webpack --env.mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/and3k5/RetroWebOS.git"
+  },
+  "author": "Anders Kjeldsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/and3k5/RetroWebOS/issues"
+  },
+  "homepage": "https://github.com/and3k5/RetroWebOS#readme",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.2",
+    "@vue/cli-service": "^3.9.2",
+    "http-server": "^0.11.1",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
