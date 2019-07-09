@@ -30,13 +30,17 @@
 
             </div>
         </div>
-        <button type="button" class="start-button" @click="open = !open">Start</button>
+        <div class="start-button" @click="open = !open" :style="{'background-image': util.css.url(theme.res('STARTBUTTON.bmp'))}">Start</div>
     </div>
 </template>
 
 <script>
 export default {
     name: "start-menu",
+    props: {
+        theme: Object,
+        util: Object,
+    },
     data() {
         return {
             open: false
