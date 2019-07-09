@@ -1,0 +1,2 @@
+REM TODO: Test in Wine if linux
+call ..\..\lib\resourcesextract\ResourcesExtract-x86.exe /Source %1 /DestFolder %2 /ExtractIcons 1 /ExtractCursors 1 /ExtractBitmaps 1 /ExtractHTML 1 /ExtractManifests 1 /ExtractAnimatedIcons 1 /ExtractAnimatedCursors 1 /ExtractAVI 1 /ExtractTypeLib 1 /ExtractBinary 1 /FileExistMode 1 /OpenDestFolder 0
